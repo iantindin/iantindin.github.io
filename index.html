@@ -2,88 +2,46 @@
 <html>
 
 <head>
-  <title>Rota Programada</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Builder</title>
+
   <style>
     body {
       margin: 0;
       font-size: 0;
+      background-color: black;
     }
 
-    #mini-game {
-      display: flex;
-      flex-direction: row;
-      height: 100vh;
-    }
-
-    #code {
-      min-width: 0;
-      width: 0;
-      display: flex;
-      flex-direction: column;
-    }
-
-    #blockly {
-      height: 100%;
-      position: relative;
-    }
-
-    #blocklyArea {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-
-    #run-code {
-      background-color: lightblue;
-      margin: 0;
+    #download {
+      font-size: x-large;
+      /* background-color: #5783b0; */
+      background-image: linear-gradient(#6793c0, #376390);
+      display: inline-block;
       padding: 12px;
-      text-align: center;
-      font-size: large;
-      font-weight: bold;
-      cursor: pointer;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
-    }
-
-    #block-limit {
-      background-color: #BB9999;
+      border-radius: 5px;
+      border: 1px solid white;
+      color: white;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
       margin: 0;
-      padding: 8px;
-      text-align: center;
-      font-size: medium;
-      display: none;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
+      align-self: center;
     }
 
-    #run-code:hover {
-      background-color: darkturquoise;
-    }
-
-    #phaser {
-      width: 100%;
-    }
-
-    #phaser canvas {
-      max-width: 100%;
+    #download:hover {
+      background-image: linear-gradient(#87b3e0, #5783b0);
+      cursor: pointer;
     }
   </style>
-  <script src="acorn_interpreter.js"></script>
   
-  <script type="module" crossorigin src="/assets/index.095fc13a.js"></script>
+  <script type="module" crossorigin src="/assets/index.e930c46c.js"></script>
 </head>
 
 <body>
-  <div id="mini-game">
-    <div id="code">
-      <p id="run-code">EXECUTAR</p>
-      <p id="block-limit"></p>
-      <div id="blockly">
-        <div id="blocklyArea"></div>
-      </div>
-    </div>
-    <div id="phaser"></div>
-  </div>
+  <div id="phaser"></div>
+  <p id="download">Download</p>
 </body>
 
 </html>
