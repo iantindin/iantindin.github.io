@@ -1,5 +1,8 @@
 {
-  "menu": {},
+  "menu": {
+    "startGame": "Iniciar partida",
+    "players": "Lista de Jogadores"
+  },
   "board": {
     "feed": {
       "startMatch": "A partida está começando, preparem-se.",
