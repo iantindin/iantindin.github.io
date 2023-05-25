@@ -1,7 +1,8 @@
 {
   "menu": {
     "startGame": "Iniciar partida",
-    "players": "Lista de Jogadores"
+    "players": "Lista de Jogadores",
+    "playAgain": "Jogar novamente"
   },
   "board": {
     "feed": {
