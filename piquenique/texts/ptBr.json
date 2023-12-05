@@ -2,7 +2,9 @@
   "menu": {
     "startGame": "Iniciar partida",
     "players": "Lista de Jogadores",
-    "playAgain": "Jogar novamente"
+    "playAgain": "Jogar novamente",
+    "instructions": "ORIENTAÇÕES:\nEste tabuleiro comporta no máximo 4 jogadores.\nAguarde a entrada de todos os participantes para clicar em INICIAR PARTIDA.\nUma vez iniciada a partida, novos jogadores não poderão acessar o tabuleiro.\nDurante a partida, cada jogador possui 10 segundos para lançar os dados, caso ultrapasse esse prazo, o computador realizará a jogada em seu lugar.\nCaso um jogador se desconecte, o computador assumirá as rodadas até o final da partida.\nO objetivo do jogo é atingir o final do tabuleiro com o maior saldo, após cumprir 4 objetivos (fichas) escolhidos no início da partida.\nDivirta-se enquanto aprende finanças!",
+    "waiting": "Aguardando %name iniciar a partida"
   },
   "board": {
     "feed": {
